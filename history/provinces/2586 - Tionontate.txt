@@ -1,0 +1,19 @@
+# No previous file for Tionontate
+
+tribal_owner = ---
+culture = tionontate
+religion = totemism
+capital = "Tionontate"
+trade_goods = tobacco #were called the Tobacco indians
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0
+
+
+
+discovered_by = north_american
+
