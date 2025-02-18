@@ -518,11 +518,8 @@ azt_missions_2 = {
 		} 
 
 		effect = {
-			every_province = {
-				limit = {
-				sub_continent = central_america
-				}
-			add_permanent_claim = ROOT
+			central_america_superregion = {
+				add_permanent_claim = AZT
 			}
 			give_claims = { id = 850 }
 			give_claims = { id = 4583 }

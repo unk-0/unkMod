@@ -12,7 +12,6 @@ base_production = 4
 trade_goods = livestock
 base_manpower = 3
 add_core = NRM
-add_core = FRA
 add_local_autonomy = 80
 discovered_by = eastern
 discovered_by = western

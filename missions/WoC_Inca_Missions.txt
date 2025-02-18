@@ -26,12 +26,13 @@ WoC_cuzco_1 = {
 			army_size = 12
 		}
 		effect = {
-			every_province = {
-				limit = {
-				sub_continent = andes
-				}
-			add_permanent_claim = ROOT
+			upper_peru_region = {
+				add_permanent_claim = ROOT
 			}
+			peru_region = {
+				add_permanent_claim = ROOT
+			}
+
 			add_war_exhaustion = -2
 
 			custom_tooltip = " "

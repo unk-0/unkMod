@@ -6,6 +6,13 @@ union =  {
 	end_date = 1479.1.20
 }
 
+union =  {
+	first = ARA
+	second = NAP
+	start_date = 1443.6.29
+	end_date = 1479.1.20
+}
+
 #Iberian Union
 union = {
 	first = SPA

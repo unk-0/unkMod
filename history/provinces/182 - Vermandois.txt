@@ -1,7 +1,7 @@
 # 182 Valois - Principal cities: Compiègne + Soissons
 
-owner = PIC
-controller = PIC
+owner = ORL
+controller = ORL
 capital = "Soissons"
 is_city = yes
 culture = cosmopolitan_french
@@ -13,7 +13,7 @@ trade_goods = livestock
 base_manpower = 4
 #fort_15th = yes
 add_core = CHP
-add_core = PIC
+add_core = ORL
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

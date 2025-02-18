@@ -628,7 +628,7 @@ NCountry = {
 	PARLIAMENT_BACKING_PERCENTAGE = 25,			-- average percent of seats backing an issue (0-100)
 	PARLIAMENT_EFFECT_DURATION = 10,				-- in years
 	PARLIAMENT_DEBATE_DURATION = 5,				-- in years
-	NUM_PARLIAMENT_ISSUES = 5,
+	NUM_PARLIAMENT_ISSUES = 15,					-- UNKHERE
 	PARLIAMENT_PRESTIGE_HIT = -20,				-- penalty if failed debate.
 	PARLIAMENT_CHANCE_OF_DECISION = 10,			-- % Chance debate is ended after PARLIAMENT_DEBATE_DURATION
 	PARLIAMENT_RESET_COOLDOWN = 20,				-- how long before you can use reset again for parliament decisions
@@ -1250,7 +1250,7 @@ NMilitary = {
 	ARMY_DRILL_SKILL_MONTHS = 120,					-- The average number of months until you get a skill increase if drilling 100% of forcelimit. Set to 0 to disable.
 
 	MAX_SAILOR_LACK_ATTRITION = 1,
-	SAILOR_MAINTAINANCE = 0.02,		-- of build cost.
+	SAILOR_MAINTAINANCE = 0.04,		-- of build cost.
 	BANNER_AGE_MULTIPLIER = 0.50,
 	BANNER_STARTING_STRENGTH = 0.1,					-- Starting strength of a banner regiment, 1.0 being full strength
 	CAWA_STARTING_STRENGTH = 0.5,					-- Starting strength of a cawa regiment, 1.0 being full strength

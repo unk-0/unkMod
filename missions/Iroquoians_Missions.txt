@@ -27,11 +27,8 @@ iroquoians_1 = {
 		}
 
 		effect = {
-			every_province = {
-				limit = {
-				sub_continent = north_america
-				}
-			add_permanent_claim = ROOT
+			north_america = {
+				add_permanent_claim = ROOT
 			}
 			add_dip_power = 50
 			if = {

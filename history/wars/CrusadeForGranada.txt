@@ -9,7 +9,6 @@ war_goal = {
 	add_attacker = ARA
 	add_attacker = POR
 	add_defender = GRA
-	add_defender = GUY
 }
 
 1443.1.1 = {

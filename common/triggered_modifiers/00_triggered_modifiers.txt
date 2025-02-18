@@ -5,7 +5,27 @@
 
 
 #########################################################
-# The Iroquios
+# Honorable 1v1
+#########################################################
+honorable_one_v_one = {
+	potential = {
+		has_country_flag = honorable_one_v_one
+		ai = no
+	}
+
+	trigger = {
+		any_country = {
+			alliance_with = ROOT
+		}
+	}
+
+	land_morale = -0.8
+
+}
+
+
+#########################################################
+# Colonizer Raid Boss
 #########################################################
 colonizer_raid_boss = {
 	potential = {
