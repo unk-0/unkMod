@@ -3,19 +3,25 @@
  ab_swedish_uprising:0 "Swedish Uprising"
  ab_austrian_dominance:0 "Austrian Dominance"
  #Events
- #France
+  #France
+   #Independance of English mainland holdings
+ unk_flavor_fra.1.a:0 "They were of no use to us anyways"
  unk_flavor_fra.1.t:0 "French Ducal Holdings Rebel"
  unk_flavor_fra.1.d:0 "There's nothing we can do about it."
+   #France surrendering 100 year war - (English side)
+ unk_flavor_fra.2.a:0 "Typical"
  unk_flavor_fra.2.t:0 "France Surrenders"
  unk_flavor_fra.2.d:0 "France is flying the white flag and it's finally time to end the one hundred years of conflict."
+   #France surrendering 100 year war - (French side)
+ unk_flavor_fra.3.a:0 "Rather unfortunate"
  unk_flavor_fra.3.t:0 "The king has been captured"
  unk_flavor_fra.3.d:0 "With our sovereign in their hands and no hope of reclaiming the city, we have but one choice... We must send forth our terms of surrender."
- unk_flavor_fra.1.a:0 "They were of no use to us anyways"
- unk_flavor_fra.2.a:0 "Typical"
+   #England loses the 100 years war
+ unk_flavor_fra.4.a:0 "They better stay on their island!"
  unk_flavor_fra.4.t:0 "The English Concede"
  unk_flavor_fra.4.d:0 "After over a century of conflict, England finally concedes defeat in the Hundred Years' War. England, facing internal strife and financial ruin, agrees to a peace treaty with France, ceding Normandy, Aquitaine, and other French territories. The English withdraw their claim to the French throne, acknowledging France’s dominance."
- unk_flavor_fra.4.a:0 "They better stay on their island!"
- unk_flavor_fra.3.a:0 "Rather unfortunate"
+
+ #Modifiers
  winners_of_hundred_year_war:0 "Winners of the hundred years war"
  honorable_one_v_one:0 "Honorable 1v1"
  #Policies

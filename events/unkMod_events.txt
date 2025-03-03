@@ -36,11 +36,11 @@ country_event = {
 
 	option = {
         name = "unk_flavor_fra.2.a"
-		FRA = {
-			country_event = {
-				id = unk_flavor_fra.3
-			}
-		}
+		#FRA = {
+		#	country_event = {
+		#		#id = unk_flavor_fra.3
+		#	}
+		#}
 		add_power_projection = 50
 		add_prestige = 50
 		add_manpower = 10
@@ -68,7 +68,7 @@ country_event = {
 
 
 	option = {	#Win against France
-		name = unk_flavor_fra.3.a
+		name = "unk_flavor_fra.3.a"
 		white_peace = ENG
 
 		FRA = {
