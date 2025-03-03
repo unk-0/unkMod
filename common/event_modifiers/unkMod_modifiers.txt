@@ -6,8 +6,5 @@
 
 winners_of_hundred_year_war = {
     prestige = 1
-    global_autonomy = -0.05
-    stability_cost_modifier = -0.3
-    manpower_recovery_speed = 0.2
     technology_cost = -0.1
 }
