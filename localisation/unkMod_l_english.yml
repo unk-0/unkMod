@@ -61,3 +61,9 @@
  faster_integration:0 "Faster Integration"
  justified_reasons:0 "Justified Reasons"
  justified_reasons_desc:0 "A country may justify war against neighbors if their actions threaten national security, sovereignty, or stability, arguing that military action is necessary to defend borders, protect citizens, or maintain peace."
+
+ #Development Counter
+ development_counter_title:0 "£sea_development_logo£Total Development Improvements"
+ development_counter_desc:0 ""
+ development_counter_tt:0 "Development Improvements:\n\n£adm£ Development Gained: §G[Root.adm_dev_counter.GetValue]§! \n£dip£ Development Gained: §G[Root.dip_dev_counter.GetValue]§! \n£mil£ Development Gained: §G[Root.mil_dev_counter.GetValue]§! \n\nTotal Development Gained: §G[Root.total_dev_counter.GetValue]§!"
+ development_counter_update_tt:0 "Add §YDevelopment Improvement Counter§!".

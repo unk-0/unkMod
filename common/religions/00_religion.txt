@@ -34,6 +34,7 @@ christian = {
 		}
 		
 		hre_religion = yes
+		declare_war_in_regency = yes
 		
 		on_convert = {
 			change_religion = catholic
@@ -331,6 +332,7 @@ christian = {
 		}
 		
 		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		declare_war_in_regency = yes
 		
 		aspects = {
 			divorce_consort_aspect
@@ -368,6 +370,7 @@ christian = {
 		}
 		
 		uses_hussite_power = yes				# Uses church power/aspect mechanics
+		declare_war_in_regency = yes
 		
 		aspects = {
 			clerical_poverty_aspect
@@ -380,7 +383,6 @@ christian = {
 			taborite_resurgence_aspect
 			orphan_hetmans_aspect
 			freedom_to_preach_aspect
-			rekindle_the_hussite_wars_aspect
 		}
 		aspects_name = PROTESTANT_ASPECTS
 		
@@ -430,6 +432,7 @@ christian = {
 		aspects_name = PROTESTANT_ASPECTS
 		
 		hre_heretic_religion = yes
+		declare_war_in_regency = yes
 		
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
@@ -556,6 +559,8 @@ christian = {
 				}
 			}
 		}
+
+		declare_war_in_regency = yes
 		
 		on_convert = {
 			change_religion = reformed
@@ -668,6 +673,7 @@ christian = {
 		
 		has_patriarchs = yes		# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
+		declare_war_in_regency = yes
 		
 		orthodox_icons = {
 			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
@@ -835,8 +841,9 @@ christian = {
 		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
 		
 		misguided_heretic = yes
+		declare_war_in_regency = yes
 		
-		holy_sites = { 358 1227 2313 1234 419 }
+		holy_sites = { 358 1227 410 1234 390 }
 		
 		blessings = {
 			legitimize_government
@@ -1397,6 +1404,7 @@ muslim = {
 		heretic = { BEKTASHI AHMADI ZIKRI YAZIDI }
 		
 		uses_piety = yes				# Uses piety mechanics
+		declare_war_in_regency = yes
 	}
 
 	shiite = {
@@ -1421,6 +1429,7 @@ muslim = {
 		heretic = { DRUZE HURUFI ZAIDI }
 		
 		uses_piety = yes				# Uses piety mechanics
+		declare_war_in_regency = yes
 	}
 	
 	ibadi = {
@@ -1445,6 +1454,7 @@ muslim = {
 		heretic = { HARURI SUFRI NAJADAT AZRAQI }
 		
 		uses_piety = yes				# Uses piety mechanics
+		declare_war_in_regency = yes
 	}
 	
 	harmonized_modifier = harmonized_muslim
@@ -1486,6 +1496,7 @@ eastern = {
 		harmonized_modifier = harmonized_buddhism
 		
 		uses_karma = yes
+		declare_war_in_regency = yes
 	}
 	
 	vajrayana = {
@@ -1515,6 +1526,7 @@ eastern = {
 		heretic = { ZEN }
 		
 		uses_karma = yes
+		declare_war_in_regency = yes
 	
 		harmonized_modifier = harmonized_vajrayana
 	}
@@ -1548,6 +1560,7 @@ eastern = {
 		heretic = { ZEN }
 		
 		uses_karma = yes
+		declare_war_in_regency = yes
 	}
 
 	confucianism = {
@@ -1563,6 +1576,7 @@ eastern = {
 		}
 		heretic = { TAOIST }
 		uses_harmony = yes
+		declare_war_in_regency = yes
 	}
 
 	shinto = {
@@ -1581,6 +1595,7 @@ eastern = {
 		}
 		heretic = { SHUGENDO }
 		uses_isolationism = yes
+		declare_war_in_regency = yes
 		
 		harmonized_modifier = harmonized_shinto
 		
@@ -1612,6 +1627,7 @@ dharmic = {
 		}
 		
 		personal_deity = yes
+		declare_war_in_regency = yes
 		
 		on_convert = {
 			change_religion = hinduism
@@ -1657,6 +1673,7 @@ dharmic = {
 		}
 
 		heretic = { MASANDIS }
+		declare_war_in_regency = yes
 
 		date = 1499.01.01
 
@@ -2264,6 +2281,7 @@ pagan = {
 		}
 		
 		heretic = { SNAKE_CLAN }
+		declare_war_in_regency = yes
 	}
 	shamanism = { #Fetishism, tag kept to avoid breaking saves.
 		color = { 127 76 76 }
@@ -2278,6 +2296,7 @@ pagan = {
 		}
 
 		fetishist_cult = yes
+		declare_war_in_regency = yes
 		heretic = { GOAT_SKULL }
 	}
 	totemism = {
@@ -2296,6 +2315,7 @@ pagan = {
 		}
 
 		ancestors = yes
+		declare_war_in_regency = yes
 		
 		heretic = { BEAR_SPIRIT }	
 	}
@@ -2317,9 +2337,9 @@ pagan = {
 			local_missionary_strength = 0.02
 		}
 		
-		authority = no
-		religious_reforms = no
-		require_reformed_for_institution_development = no
+		authority = yes
+		religious_reforms = yes
+		declare_war_in_regency = yes
 		reform_tooltip = INTI_REFORM_TOOLTIP
 		
 		heretic = { INTI_HERETIC }	
@@ -2341,10 +2361,9 @@ pagan = {
 			local_missionary_strength = 0.02
 		}
 		
-		doom = no
+		doom = yes
 		declare_war_in_regency = yes
-		religious_reforms = no
-		require_reformed_for_institution_development = no
+		religious_reforms = yes
 		reform_tooltip = NAHUATL_REFORM_TOOLTIP
 		
 		heretic = { NAHUATL_HERETIC }	
@@ -2356,18 +2375,18 @@ pagan = {
 		icon = 19
 		country = {
 			tolerance_own = 1
-			same_religion_advisor_cost = -0.1
+			advisor_pool = 1
 		}
 		country_as_secondary = {
-			same_religion_advisor_cost = -0.1
+			advisor_pool = 1
 			stability_cost_modifier = -0.1
 		}
 		province = {
 			local_missionary_strength = 0.02
 		}
 		
-		require_reformed_for_institution_development = yes
 		religious_reforms = yes
+		declare_war_in_regency = yes
 		reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
 		
 		heretic = { MESOAMERICAN_HERETIC }	
@@ -2389,6 +2408,7 @@ pagan = {
 		}
 		
 		personal_deity = yes
+		declare_war_in_regency = yes
 		
 		heretic = { OLD_NORSE }	
 	}
@@ -2401,6 +2421,7 @@ pagan = {
 			global_regiment_cost = -0.2
 		}
 		can_have_secondary_religion = yes
+		declare_war_in_regency = yes
 		heretic = { OLD_TENGRI }
 	}
 	
@@ -2417,6 +2438,7 @@ pagan = {
 		}
 		
 		fetishist_cult = yes
+		declare_war_in_regency = yes
 		heretic = { WAGYLKOOP MOORAMOORA GINGARRURNDE }
 	}
 	
@@ -2445,6 +2467,7 @@ jewish_group = {
 		}
 		
 		uses_judaism_power = yes
+		declare_war_in_regency = yes
 		aspects_name = JEWISH_ASPECTS
 			
 		aspects = {
@@ -2591,6 +2614,7 @@ zoroastrian_group = {
 		}
 		
 		heretic = { MAZDAKI MANICHEAN }	
+		declare_war_in_regency = yes
 	}
 	
 	harmonized_modifier = harmonized_zoroastrian_group

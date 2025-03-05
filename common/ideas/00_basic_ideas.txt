@@ -106,7 +106,8 @@ theocracy_gov_ideas = {
 		legitimacy = 0.5
 	}
 	by_the_grace_of_god = {
-		fire_damage = 0.2
+		discipline = 0.025
+		land_attrition = -0.25
 	}
 	friends_in_high_places = {
 		leader_cost = -0.1
@@ -114,7 +115,7 @@ theocracy_gov_ideas = {
 	}
 	flesh_is_weak = {
 		morale_damage_received = -0.2
-		shock_damage_received = -0.15
+		shock_damage = 0.25
 	}
 	alpha_and_omega = {
 		culture_conversion_cost = -0.15
@@ -124,7 +125,7 @@ theocracy_gov_ideas = {
 		global_unrest = -2
 	}
 	martyrs = {
-		morale_damage = 0.05
+		infantry_shock = 0.3
 		prestige_from_land = 0.5
 	}
 }
