@@ -522,7 +522,7 @@ h_spy_economic = {
 		full_idea_group = economic_ideas
 	}
 
-	interest = -0.5
+	trade_efficiency = 0.25
 	global_foreign_trade_power = 0.20
 }
 
@@ -651,7 +651,7 @@ h_plutocracy_economic = {
 
 	merchants = 2
 	republican_tradition = 0.5
-	may_recruit_female_generals = yes
+	mercenary_cost = -0.15
 }
 
 h_theocracy_gov_economic = {
@@ -716,7 +716,7 @@ h_quality_economic = {
 		full_idea_group = economic_ideas
 	}
 
-	discipline = 0.025
+	discipline = 0.03
 }
 
 h_quantity_economic = {
